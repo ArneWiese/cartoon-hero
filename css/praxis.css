@@ -5,29 +5,30 @@ body{
     line-height: 30px;
 }
 
-/* header styles */
+h1 ,h2 {
+    font-family: 'Pacifico', cursive;
+}
 
+h2{
+    font-size: 30px;
+    color: #0c703b;
+    margin: 40px 0 10px;
+}
 header{
-    background-color: #d14635;
+    background-color: #118f4c;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-h1, h2{
-    font-family: 'Press Start 2P';
-}
-
 header h1{
     color: white;
     font-size: 50px;
-    
 }
 
 header img{
-    border-radius: 160px;
-    width: 300px;
-    border: 10px solid white;
+    border-style: groove;
+    border: 5px solid white;
 }
 
 main{
@@ -38,40 +39,21 @@ main{
 
 main img{
     max-width: 100%;
-}
-
-h2{
-    font-size: 30px;
-    color: #e70c19;
-    margin: 40px 0 10px;
-}
-
-a{
-    color: #e70c19;
-}
-
-a:hover{
-    color: #483a94;
+    margin: 0;
+    max-height: 370px;
+    align-content: center;
+    border: 5px solid #118f4c;
 }
 
 footer{
-    background-color: #d14635;
+    background-color: #118f4c;
     text-align: center;
     color: white;
-    padding: 50px;
+    padding: 30px;
 }
 
 footer p{
     margin: 0;
-}
-
-footer a{
-    color: white;
-}
-
-footer a:hover{
-    opacity: 0.5;
-    background-color: transparent;
 }
 
 p.caption{
@@ -79,3 +61,4 @@ p.caption{
     margin-top: 0;
     font-style: italic;
 }
+

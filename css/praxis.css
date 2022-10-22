@@ -37,12 +37,30 @@ main{
     padding: 20px;
 }
 
-main img{
-    max-width: 100%;
-    margin: 0;
-    max-height: 370px;
-    align-content: center;
-    border: 5px solid #118f4c;
+img { border: none; }
+
+.box{
+    border: 10px seagreen solid;
+    box-sizing: border-box;
+    line-height: 0px;
+    max-width: 410px;
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.setclear{
+    clear: both;
+}
+
+.box2{
+    display: inline;
+    line-height: 0px;
+}
+
+.box2 img{
+    max-width: 390px;
+    line-height: 0px;
 }
 
 footer{
@@ -60,5 +78,6 @@ p.caption{
     color: #999999;
     margin-top: 0;
     font-style: italic;
+    clear: both;
 }
 
